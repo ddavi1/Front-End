@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #032623;
+    font-family: monospace;
+}
+
+img {
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 19px;
+   
+}
+
+.menu-cabecalho {
+    background-color: #f0d239;
+    padding: 40px;
+    font-size: 23px;  
+    
+    
+}
+
+.link-header{
+    text-decoration: none;
+    color: #F24405;
+    margin-left: 30px;
+}
+.link-header:hover {
+    color: black;
+    background-color: #F24405;
+    text-decoration: underline;
+    border-radius: 5px;
+    
+}
+
+.main-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color:#eabb2e;
+}
+
+.titulo-sessão-1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+}
+
+.sub-sessão-1 { 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+
+
+/* ======================= */
+
+
+
+
+
+
+
+.sessão-2 {
+    background-color: #b78e11;
+}
+
+.subtitulo-sessão-2 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.paragrafo-sessão-2 {
+    color: white;
+    font-size: 19px;
+}
+
+.sessão2-img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+footer p {
+    
+    font-size: 20px;
+    text-align: center;
+    color: rgb(239, 75, 15);
+    padding: 10px;
+    border: 1px solid coral;
+}

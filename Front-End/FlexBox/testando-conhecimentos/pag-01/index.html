@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt- BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionando elementos</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: blueviolet;
+            height: 500px;
+            color: white;
+            font-size: 35px;
+        }
+
+        .filhos {
+            background-color: black;
+            border: 1px solid red;
+            width: 100px;
+            height: 50px;
+            
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        img{
+            width: 250px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="filhos">1</div>
+            <div class="filhos">2</div>
+            <div class="filhos">3</div>
+        </div>
+        
+        <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0btJ7cEy6lO0LaNsREJ2lvrYaTN3AJkNTJpdaIxCWE_lEWjVXzG4C4BwONNTxKjVbGr4&usqp=CAU" alt="">
+        </div>
+</body>
+</html>

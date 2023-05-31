@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,ol,li {
+    list-style: none;
+    
+    
+}
+
+.example{
+    color: white;
+    text-align: center;
+    
+}
+
+.example-item{
+    width: 100px;
+    height: 150px;
+    display: inline;
+}
+
+.example-item_first{
+    background-color: black;
+}
+
+.example-item_second{
+    background-color: red;
+}
+
+.example-item_third{
+    background-color: coral;
+}

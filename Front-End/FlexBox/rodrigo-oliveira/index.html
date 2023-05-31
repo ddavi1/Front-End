@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: #ccc;
+            height: 500px;
+            display: flex;
+            flex-direction:row;/* por padrão assume row = linha */
+            flex-wrap: wrap; /* se vai quebrar a linha ou nao */
+            justify-content:flex-start; /* alinhamento horizontal */
+            align-items: baseline; /* alinhamento vertical */
+            align-content: ; /* quando os itens tiveram uma quebra alinhamento vertical */
+        }
+
+        .item {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 5px;
+            width: 200px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <article class="item article-01">
+            article 01
+        </article>
+
+        <article class="item article-02">
+            article 02
+        </article>
+
+        <article class="item article-03">
+            article 03
+        </article>
+
+    </section>
+</body>
+</html>
